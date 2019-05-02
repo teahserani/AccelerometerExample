@@ -1,17 +1,17 @@
 # AccelerometerExample
 Basic accelerometer app for an Android device to demonstrate ease-of-use with the GWearCloud system. The source code for this project can be found [here](https://examples.javacodegeeks.com/android/core/hardware/sensor/android-accelerometer-example/) and was not modified to make easier to use with the GWearCloud system in any way.
 
-# Required Software
+## Required Software
 - [Android Studio](https://developer.android.com/studio)
 
-# Usage
+## Usage
 Open the project in Android Studio, either as a git repository or as a directory downloaded from the zip file.
 
 Build the project using Gradle.
 
 Run it in an emulator or on a test device.
 
-# Adding GWearCloud capabilities
+## Adding GWearCloud capabilities
 The purpose of this repository is to serve as a basis for testing the ease-of-use for the GWearCloud system. To participate in this study, download this project and add [libgwearandroid](https://github.com/gwulilab/libgwearandroid) to the project using the instructions found in the libgwearandroid README file.
 
 For this project, new sensor data is read and processed in the `onSensorChanged(SensorEvent event` method. The method is copy-and-pasted below:
@@ -42,3 +42,6 @@ For this project, new sensor data is read and processed in the `onSensorChanged(
         }
     }
 ```
+
+## Reporting Bugs
+If you found any bugs or have any suggestions for this project, please feel free to [submit an issue](https://github.com/gwulilab/AccelerometerExample/issues).
