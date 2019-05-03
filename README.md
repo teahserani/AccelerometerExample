@@ -43,5 +43,15 @@ For this project, new sensor data is read and processed in the `onSensorChanged(
     }
 ```
 
+### Visualization 
+You do not need to use this if you have an Android device to test on. 
+
+Open the AVD Manager 
+Select Create Virtual Device 
+Select a Device and Press Next 
+Select Oreo with an API level 26 and Press Next 
+Press Finish 
+Under Action select launch this AVD in emulator 
+
 ## Reporting Bugs
 If you found any bugs or have any suggestions for this project, please feel free to [submit an issue](https://github.com/gwulilab/AccelerometerExample/issues).
