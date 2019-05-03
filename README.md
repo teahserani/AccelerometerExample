@@ -47,10 +47,15 @@ For this project, new sensor data is read and processed in the `onSensorChanged(
 You do not need to use this if you have an Android device to test on. 
 
 Open the AVD Manager 
-Select Create Virtual Device 
+
+Select Create Virtual Device
+
 Select a Device and Press Next 
+
 Select Oreo with an API level 26 and Press Next 
+
 Press Finish 
+
 Under Action select launch this AVD in emulator 
 
 ## Reporting Bugs
